@@ -14,7 +14,7 @@ command.
 Monitor a systemd user service.
 
 ```bash
-# Assuming there is a service file in ~/.local/share/systemd/user/example.service.
+# Assuming there is a service file ~/.local/share/systemd/user/example.service.
 ./status-wrapper.py --systemd --open='xdg-open https://localhost:1234' --icon=~/.local/share/icons/48x48/apps/example.png example
 ```
 
